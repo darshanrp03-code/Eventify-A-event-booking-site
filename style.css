@@ -1,2 +1,27 @@
-h2{color: rgb(221, 220, 221);font-size:100px;} 
-body{background-color: rgb(114, 77, 140);}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #16001E, #5A0B70, #E040FB);
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+p{
+    text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
+}
