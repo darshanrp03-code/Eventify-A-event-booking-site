@@ -1,4 +1,6 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,22 +8,67 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(135deg, #16001E, #5A0B70, #E040FB);
+    background: linear-gradient(135deg, #171717, #080707);
+    color: white;
+    font: 700 28px "Space Grotesk";
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #21152E;
+    border-top: 1px solid #838384;
+    border-bottom: 1px solid #838384;
+
+}
+
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 50px;
+    font-family: "Space grotesk", sans-serif;
+    text-decoration: none;
     color: white;
 }
 
-h2 {
-    color: white;
-    font-size: 100px;
-    text-align: center;
-    font-family: "Segoe UI", Arial, sans-serif;
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
+.logo span{
+    color: #9a63d1;
+    font-family: "Space grotesk", sans-serif;
+    ;
 }
 
-p{
-    text-align: center;
-    font-family: "Segoe UI", Arial, sans-serif;
-    font-style: italic;
-    letter-spacing: 1px;
+.homeButton{
+    position: absolute;
+    top: 20px;
+    right: 300px;
+    font-size: 30px;
+    font-family: "Space grotesk", sans-serif;
+    text-decoration: none;
+    color: white;
 }
+
+.eventsButton{
+    position: absolute;
+    top: 20px;
+    right: 190px;
+    font-size: 30px;
+    font-family: "Space grotesk", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.aboutButton{
+    position: absolute;
+    top: 20px;
+    right: 90px;
+    font-size: 30px;
+    font-family: "Space grotesk", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
